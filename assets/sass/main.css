@@ -1,4 +1,4 @@
-@import url(c:\Users\giorg\Desktop\forty\assets\css\fontawesome-all.min.css);
+@import url(c:\Users\giorg\Documents\GitHub\gpaparaz.github.io\assets\css\fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 /*
 	Forty by HTML5 UP
@@ -3334,6 +3334,11 @@ body.is-preload #header-inner.alt {
 }
 
 #banner:after {
+  -webkit-transition: opacity 2.5s ease;
+  transition: opacity 2.5s ease;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  pointer-events: none;
   background-color: #000000;
   content: '';
   display: block;
