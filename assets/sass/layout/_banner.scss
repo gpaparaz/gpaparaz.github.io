@@ -155,6 +155,13 @@
 				min-height: 0;
 				max-height: none;
 			}
+
+			#logo{
+	
+				img{
+					max-width: 5em !important;
+				}
+			}
 		}
 
 		@include breakpoint('<=xsmall') {
@@ -179,7 +186,9 @@
 			display: flex;
 
 			img{
-				max-width: 10em;
+				max-width: 8em;
+				padding-left: 1em;
+				margin-top: 1em;
 			}
 		}
 	}

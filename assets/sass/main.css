@@ -3483,6 +3483,9 @@ body.is-preload #banner > .inner {
     min-height: 0;
     max-height: none;
   }
+  #banner #logo img {
+    max-width: 5em !important;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -3504,7 +3507,9 @@ body.is-preload #banner > .inner {
 }
 
 #banner #logo img {
-  max-width: 10em;
+  max-width: 8em;
+  padding-left: 1em;
+  margin-top: 1em;
 }
 
 /* Main */
