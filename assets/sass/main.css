@@ -3363,10 +3363,6 @@ body.is-preload #header-inner.alt {
   z-index: 2;
 }
 
-#banner > .inner .image {
-  display: none;
-}
-
 #banner > .inner header {
   width: auto;
 }
@@ -3499,6 +3495,16 @@ body.is-preload #banner > .inner {
   #banner.major {
     padding: 8em 0 4em 0 ;
   }
+}
+
+#banner #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#banner #logo img {
+  max-width: 10em;
 }
 
 /* Main */
