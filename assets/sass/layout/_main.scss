@@ -74,6 +74,15 @@
 				-webkit-transform: scale(1.1); /* Safari 3-8 */
 				transform: scale(1.1); 
 			}
+			.row{
+				.tag-about{
+					border: _palette(highligh) 1px solid;
+					color: #fff;
+					background-color: #790000;
+					padding: 5px;
+					border-radius: 10px;
+				}
+			}
 
 		}
 		.two-inner{
