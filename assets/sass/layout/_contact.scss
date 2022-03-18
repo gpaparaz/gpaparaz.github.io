@@ -9,6 +9,11 @@
 	#contact {
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
+		@include vendor('background-image', 'url("../../images/foglie_grande.jpg")');
+		background-attachment: scroll;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 
 		> .inner {
 			@include vendor('display', 'flex');

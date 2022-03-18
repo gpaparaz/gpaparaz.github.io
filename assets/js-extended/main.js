@@ -311,7 +311,7 @@
 	//aggiungi specifici link
 	var $menuLinks = $('.inner .links');
 	var htmlLinks = `<li><a href="index.html">Home</a></li>
-	<li><a href="#">About me</a></li>`;
+	<li><a href="/aboutme.html">About me</a></li>`;
 	$menuLinks.append(htmlLinks);
 
 	$body
