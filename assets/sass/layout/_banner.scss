@@ -185,6 +185,10 @@
 		#logo{
 			display: flex;
 
+			.major{
+				margin-bottom: 0em !important;
+			}
+
 			img{
 				max-width: 8em;
 				padding-left: 1em;

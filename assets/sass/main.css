@@ -3506,6 +3506,10 @@ body.is-preload #banner > .inner {
   display: flex;
 }
 
+#banner #logo .major {
+  margin-bottom: 0em !important;
+}
+
 #banner #logo img {
   max-width: 8em;
   padding-left: 1em;
@@ -3770,6 +3774,10 @@ body.is-preload #banner > .inner {
 /* Footer */
 #footer {
   background-color: #161616 !important;
+}
+
+#footer .inner {
+  padding-top: 2em !important;
 }
 
 #footer .copyright {
