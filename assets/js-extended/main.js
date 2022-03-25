@@ -102,7 +102,7 @@
 	$window.on('unload pagehide', function () {
 		window.setTimeout(function () {
 			$('.is-transitioning').removeClass('is-transitioning');
-		}, 250);
+		}, 50);
 	});
 
 	// Fix: Enable IE-only tweaks.
