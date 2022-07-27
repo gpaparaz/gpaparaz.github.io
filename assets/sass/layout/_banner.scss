@@ -95,9 +95,9 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
-			max-height: 50em;
+			max-height: 70em;
 
 			&.alt {
 				opacity: 0.75;
@@ -123,13 +123,14 @@
 			}
 		}
 
-		@include breakpoint('<=large') {
-			background-attachment: scroll;
-		}
+		//removed because it breaks everything when scroll
+		// @include breakpoint('<=large') {
+		// 	background-attachment: scroll;
+		// } 
 
 		@include breakpoint('<=small') {
 			@include padding(3em, 0, (2em, 0, 0, 0));
-			height: auto;
+			height: 100vh;
 			margin-bottom: -2.75em;
 			max-height: none;
 			min-height: 0;
@@ -151,7 +152,7 @@
 			}
 
 			&.major {
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 				max-height: none;
 			}

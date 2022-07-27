@@ -1900,7 +1900,7 @@ input[type="radio"] + label:before {
   border-bottom: none;
   position: relative;
   font-size: 1.5em !important;
-  padding-left: 8px;
+  padding-left: 11px;
 }
 
 .icon:before {
@@ -3406,9 +3406,9 @@ body.is-preload #header-inner.alt {
 }
 
 #banner.major {
-  height: 75vh;
+  height: 100vh;
   min-height: 30em;
-  max-height: 50em;
+  max-height: 70em;
 }
 
 #banner.major.alt {
@@ -3453,16 +3453,10 @@ body.is-preload #banner > .inner {
   opacity: 0;
 }
 
-@media screen and (max-width: 1280px) {
-  #banner {
-    background-attachment: scroll;
-  }
-}
-
 @media screen and (max-width: 736px) {
   #banner {
     padding: 5em 0 1em 0 ;
-    height: auto;
+    height: 100vh;
     margin-bottom: -2.75em;
     max-height: none;
     min-height: 0;
@@ -3479,7 +3473,7 @@ body.is-preload #banner > .inner {
     margin-bottom: 2em;
   }
   #banner.major {
-    height: auto;
+    height: 100vh;
     min-height: 0;
     max-height: none;
   }
