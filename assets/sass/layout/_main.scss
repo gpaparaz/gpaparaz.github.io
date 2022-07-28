@@ -33,8 +33,12 @@
 			padding-bottom: 2.5em;
 			// background: rgb(236, 236, 236)!important;
 			// color: black !important;
-			h2{
+			h1, h2{
 				color: black !important;
+			}
+			h1{
+				font-weight: bold;
+				text-align: center;
 			}
 					
 			.tag{
@@ -57,24 +61,16 @@
 
 			.image.fit{
 				margin-bottom: 0.5em !important;
+				@include breakpoint('<=small') {
+					margin: 2.5em 0em;
+				}
 			}
 
 			.image{
-				cursor: default;
 				box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
 				border-radius: 5px;
 			}
-
-			.zoom img {
-				transition: transform .6s ease;
-				cursor: pointer;
-			}
-
-			.zoom:hover img{
-				-ms-transform: scale(1.1); /* IE 9 */
-				-webkit-transform: scale(1.1); /* Safari 3-8 */
-				transform: scale(1.1); 
-			}
+			
 			.row{
 				.tag-about{
 					border: _palette(highligh) 1px solid;
@@ -82,6 +78,13 @@
 					background-color: #790000;
 					padding: 5px;
 					border-radius: 10px;
+				}
+
+				.col-4{
+					padding: 1em;
+					@include breakpoint('<=small') {
+						width: 100%;
+					}
 				}
 			}
 
@@ -119,18 +122,51 @@
 				}
 
 				img{
-					max-width: 500px;
-					transition: transform .6s ease;
-					cursor: pointer;
+					// max-width: 500px;
+					// transition: transform .6s ease;
+					// cursor: pointer;
 				}
 	
-				img:hover{
-					-ms-transform: scale(1.1); /* IE 9 */
-					-webkit-transform: scale(1.1); /* Safari 3-8 */
-					transform: scale(1.1); 
-				}
+				// img:hover{
+				// 	-ms-transform: scale(1.1); /* IE 9 */
+				// 	-webkit-transform: scale(1.1); /* Safari 3-8 */
+				// 	transform: scale(1.1); 
+				// }
 			}
 		}
+
+		#graphic-design {
+			padding-bottom: 2em;
+			.image.fit{
+				margin-bottom: 0.5em !important;
+				@include breakpoint('<=small') {
+					margin: 2.5em 0em;
+				}
+			}
+
+			.image{
+				box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
+				border-radius: 5px;
+			}
+			
+			.row{
+				.tag-about{
+					border: _palette(highligh) 1px solid;
+					color: #fff;
+					background-color: #790000;
+					padding: 5px;
+					border-radius: 10px;
+				}
+
+				.col-4{
+					@include breakpoint('<=small') {
+						width: 100%;
+					}
+				}
+			}
+
+		}
+
 		// Slider section
 		.slide-container {
 			max-width: none;
@@ -170,14 +206,12 @@
 							background: url(../../../images/foto/cascata.jpg);
 							background-size: cover;
 							background-position: center;
-							box-shadow: rgb(0 0 0 / 23%) 0px 10px 20px, rgb(0 0 0 / 33%) 0px 6px 6px;
 						}
 
 						&.pino {
 							background: url(../../../images/foto/pino.jpg);
 							background-size: cover;
 							background-position: center;
-							box-shadow: rgb(0 0 0 / 23%) 0px 10px 20px, rgb(0 0 0 / 33%) 0px 6px 6px;
 						}
 
 						&.magnolia {
