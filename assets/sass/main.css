@@ -3595,6 +3595,21 @@ body.is-preload #banner > .inner {
   border-radius: 5px;
 }
 
+#main #two .zoom img {
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+  cursor: pointer;
+}
+
+#main #two .zoom:hover img {
+  /* IE 9 */
+  -webkit-transform: scale(1.03);
+  /* Safari 3-8 */
+  transform: scale(1.03);
+}
+
 #main #two .row .tag-about {
   border: 1px solid;
   color: #fff;
@@ -3657,6 +3672,22 @@ body.is-preload #banner > .inner {
   }
 }
 
+#main .two-inner .content-images img {
+  max-width: 500px;
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+  cursor: pointer;
+}
+
+#main .two-inner .content-images img:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.03);
+  /* Safari 3-8 */
+  transform: scale(1.03);
+}
+
 #main #graphic-design {
   padding-bottom: 2em;
 }
@@ -3675,6 +3706,21 @@ body.is-preload #banner > .inner {
   -webkit-box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
           box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
   border-radius: 5px;
+}
+
+#main #graphic-design .zoom img {
+  -webkit-transition: -webkit-transform .6s ease;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+  cursor: pointer;
+}
+
+#main #graphic-design .zoom:hover img {
+  /* IE 9 */
+  -webkit-transform: scale(1.03);
+  /* Safari 3-8 */
+  transform: scale(1.03);
 }
 
 #main #graphic-design .row .tag-about {
@@ -3819,7 +3865,7 @@ body.is-preload #banner > .inner {
 }
 
 #main .slide-container .swiper-navBtn:hover {
-  color: #9e0000;
+  color: #b81212;
 }
 
 #main .slide-container .swiper-navBtn::before,
@@ -3841,7 +3887,7 @@ body.is-preload #banner > .inner {
 }
 
 #main .slide-container .swiper-pagination-bullet-active {
-  background-color: #9e0000;
+  background-color: #b81212;
 }
 
 /* Contact */

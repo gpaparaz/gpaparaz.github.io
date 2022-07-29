@@ -70,6 +70,17 @@
 				box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
 				border-radius: 5px;
 			}
+
+			.zoom img {
+				transition: transform .6s ease;
+				cursor: pointer;
+			}
+
+			.zoom:hover img{
+				-ms-transform: scale(1.03); /* IE 9 */
+				-webkit-transform: scale(1.03); /* Safari 3-8 */
+				transform: scale(1.03); 
+			}
 			
 			.row{
 				.tag-about{
@@ -122,16 +133,16 @@
 				}
 
 				img{
-					// max-width: 500px;
-					// transition: transform .6s ease;
-					// cursor: pointer;
+					max-width: 500px;
+					transition: transform .6s ease;
+					cursor: pointer;
 				}
 	
-				// img:hover{
-				// 	-ms-transform: scale(1.1); /* IE 9 */
-				// 	-webkit-transform: scale(1.1); /* Safari 3-8 */
-				// 	transform: scale(1.1); 
-				// }
+				img:hover{
+					-ms-transform: scale(1.03); /* IE 9 */
+					-webkit-transform: scale(1.03); /* Safari 3-8 */
+					transform: scale(1.03); 
+				}
 			}
 		}
 
@@ -147,6 +158,17 @@
 			.image{
 				box-shadow: rgba(0, 0, 0, 0.23) 0px 10px 20px, rgba(0, 0, 0, 0.33) 0px 6px 6px;
 				border-radius: 5px;
+			}
+
+			.zoom img {
+				transition: transform .6s ease;
+				cursor: pointer;
+			}
+
+			.zoom:hover img{
+				-ms-transform: scale(1.03); /* IE 9 */
+				-webkit-transform: scale(1.03); /* Safari 3-8 */
+				transform: scale(1.03); 
 			}
 			
 			.row{
@@ -280,7 +302,7 @@
 				}
 			}
 			.swiper-navBtn:hover{
-			color: #9e0000;
+			color: #b81212;
 			}
 			.swiper-navBtn::before,
 			.swiper-navBtn::after{
@@ -297,7 +319,7 @@
 			opacity: 1;
 			}
 			.swiper-pagination-bullet-active{
-			background-color: #9e0000;
+			background-color: #b81212;
 			}
 		}
 	}
