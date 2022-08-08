@@ -111,7 +111,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 /* Type */
 body, input, select, textarea {
   color: #ffffff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-size: 17pt;
   font-weight: 300;
   letter-spacing: 0.025em;
@@ -155,7 +155,7 @@ a:active {
 
 strong, b {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 em, i {
@@ -168,7 +168,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.65;
   margin: 0 0 1em 0;
 }
@@ -1691,7 +1691,7 @@ label {
   color: #ffffff;
   display: block;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.25em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
@@ -2060,7 +2060,7 @@ dl {
 
 dl dt {
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 1em 0;
 }
 
@@ -2182,7 +2182,7 @@ ul.pagination li > .page {
   border-bottom: 0;
   display: inline-block;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   height: 1.5em;
   line-height: 1.5em;
   margin: 0 0.125em;
@@ -2250,7 +2250,7 @@ table td {
 table th {
   color: #ffffff;
   font-size: 0.9em;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0 0.75em 0.75em 0.75em;
   text-align: left;
 }
@@ -2313,7 +2313,7 @@ button,
   cursor: pointer;
   display: inline-block;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   height: 3.5em;
   letter-spacing: 0.25em;
   line-height: 3.5em;
@@ -2842,7 +2842,7 @@ button:disabled,
   -webkit-box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
   cursor: default;
-  font-weight: 600;
+  font-weight: 700;
   height: 3.25em;
   left: 0;
   letter-spacing: 0.25em;
@@ -3079,7 +3079,7 @@ body.is-preload #header.alt {
   -webkit-box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
   cursor: default;
-  font-weight: 600;
+  font-weight: 700;
   height: 3.25em;
   left: 0;
   letter-spacing: 0.25em;
@@ -3401,7 +3401,7 @@ body.is-preload #header-inner.alt {
 
 #banner > .inner .content p {
   font-size: 0.7em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
@@ -3557,7 +3557,6 @@ body.is-preload #banner > .inner {
 }
 
 #main #two h1 {
-  font-weight: bold;
   text-align: center;
 }
 
@@ -4146,7 +4145,7 @@ body.is-preload #banner > .inner {
   border-top: solid 1px rgba(255, 212, 212, 0.1);
   display: block;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.25em;
   line-height: 4em;
   text-decoration: none;
