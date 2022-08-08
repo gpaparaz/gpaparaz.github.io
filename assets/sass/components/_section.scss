@@ -19,10 +19,11 @@
 			width: -ms-max-content;
 			width: max-content;
 			margin-bottom: _size(element-margin);
+			width: 100%;
 
 			> :first-child {
 				margin-bottom: 0;
-				width: calc(100% + 0.5em);
+				width: calc(100% - 0.5em);
 
 				&:after {
 					content: '';
