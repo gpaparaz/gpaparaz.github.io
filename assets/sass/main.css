@@ -3525,7 +3525,7 @@ body.is-preload #banner > .inner {
 }
 
 #main > * > .inner {
-  padding: 4em 0 2em 0 ;
+  padding: 6em 0 4em 0 ;
   margin: 0 auto;
   max-width: 65em;
   width: calc(100% - 6em);
@@ -3618,7 +3618,7 @@ body.is-preload #banner > .inner {
 }
 
 #main #two .row .col-4 {
-  padding: 1em;
+  padding: 1.5em;
 }
 
 @media screen and (max-width: 736px) {
@@ -3728,6 +3728,10 @@ body.is-preload #banner > .inner {
   background-color: #790000;
   padding: 5px;
   border-radius: 10px;
+}
+
+#main #graphic-design .row .col-4 {
+  padding: 1.5em;
 }
 
 @media screen and (max-width: 736px) {
@@ -3994,7 +3998,7 @@ body.is-preload #banner > .inner {
 }
 
 #footer .inner {
-  padding-top: 2em !important;
+  padding: 2.5em 0em !important;
 }
 
 #footer .copyright {
@@ -4044,7 +4048,7 @@ body.is-preload #banner > .inner {
 }
 
 #wrapper > * > .inner {
-  padding: 4em 0 2em 0 ;
+  padding: 6em 0 4em 0 ;
   margin: 0 auto;
   max-width: 65em;
   width: calc(100% - 6em);
