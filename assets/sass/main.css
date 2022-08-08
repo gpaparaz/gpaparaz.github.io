@@ -3479,7 +3479,7 @@ body.is-preload #banner > .inner {
     max-height: none;
   }
   #banner #logo img {
-    max-width: 5em !important;
+    max-width: 6em !important;
   }
 }
 
@@ -3506,8 +3506,8 @@ body.is-preload #banner > .inner {
 }
 
 #banner #logo img {
-  max-width: 8em;
-  padding-left: 1em;
+  max-width: 5.7em;
+  margin-left: 2em;
   margin-top: 1em;
 }
 
