@@ -346,9 +346,6 @@
 		<li><a href="https://www.linkedin.com/in/giorgia-p-49a30a232/" target="_blank"
 				class="icon bi bi-linkedin" style="font-size: 1.2em !important"><span
 					class="label">Linkedin</span></a></li>
-		<li><a href="https://www.instagram.com/snuggly_th3_raven/" target="_blank"
-				class="icon bi bi-instagram" style="font-size: 1.2em !important"><span
-					class="label">Instagram</span></a></li>
 	</ul>
 	<ul class="copyright">
 		<li>&copy; Giorgia Paparazzo 2022</li>
